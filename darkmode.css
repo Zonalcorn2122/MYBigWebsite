@@ -1,0 +1,111 @@
+/* ==========================================
+   DARK MODE STYLES
+========================================== */
+
+/* Body */
+body.dark{
+    background:#0b1220;
+    color:#e2e8f0;
+}
+
+/* Header */
+body.dark header{
+    background:#0f172a;
+}
+
+/* Navigation */
+body.dark nav a{
+    color:#e2e8f0;
+}
+
+body.dark nav a:hover{
+    background:#1e40af;
+}
+
+/* Hero */
+body.dark .hero{
+    background:#0f172a;
+}
+
+/* Sections */
+body.dark section{
+    background:#0b1220;
+}
+
+/* Cards */
+body.dark .card,
+body.dark .game,
+body.dark .loginContainer,
+body.dark .stats div,
+body.dark .achievement,
+body.dark .modalContent,
+body.dark .dashboardCard{
+
+    background:#1e293b;
+    color:#e2e8f0;
+
+}
+
+/* Buttons */
+body.dark button{
+    background:#1e40af;
+}
+
+body.dark button:hover{
+    background:#1d4ed8;
+}
+
+/* Inputs */
+body.dark input,
+body.dark textarea,
+body.dark select{
+
+    background:#0f172a;
+    color:white;
+    border:1px solid #334155;
+
+}
+
+/* Sidebar */
+body.dark .sidebar{
+    background:#0f172a;
+}
+
+/* Chat */
+body.dark .chat,
+body.dark .users{
+    background:#1e293b;
+}
+
+body.dark .message.left{
+    background:#334155;
+    color:white;
+}
+
+/* Gallery */
+body.dark .gallery img{
+    filter:brightness(0.9);
+}
+
+/* Footer */
+body.dark footer{
+    background:#0f172a;
+}
+
+/* Tables */
+body.dark table th{
+    background:#1d4ed8;
+}
+
+body.dark table td{
+    border-color:#334155;
+}
+
+/* Scrollbar */
+body.dark ::-webkit-scrollbar-thumb{
+    background:#1d4ed8;
+}
+
+body.dark ::-webkit-scrollbar-track{
+    background:#0f172a;
+}
